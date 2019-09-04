@@ -5,9 +5,9 @@
   <subtitle>Exploring the unknown</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://sunyu.co/"/>
+  <link href="http://sunyu.ac.cn/"/>
   <updated>2019-09-04T12:53:08.950Z</updated>
-  <id>http://sunyu.co/</id>
+  <id>http://sunyu.ac.cn/</id>
   
   <author>
     <name>Sun Yu</name>
@@ -18,12 +18,12 @@
   
   <entry>
     <title></title>
-    <link href="http://sunyu.co/2019/09/04/super-cow-powers/"/>
-    <id>http://sunyu.co/2019/09/04/super-cow-powers/</id>
+    <link href="http://sunyu.ac.cn/2019/09/04/super-cow-powers/"/>
+    <id>http://sunyu.ac.cn/2019/09/04/super-cow-powers/</id>
     <published>2019-09-04T12:53:08.970Z</published>
     <updated>2019-09-04T12:53:08.950Z</updated>
     
-    <content type="html"><![CDATA[<hr><p>title:super-cow-powers<br>date:2019-09-04 20:25:55<br>tags:Funny</p><hr><h2 id="Powers"><a href="#Powers" class="headerlink" title="Powers"></a>Powers</h2><p>年轻人，渴望力量吗?<br><img src="/images/super-cow-powers/super-cow-powers.png" alt></p>]]></content>
+    <content type="html"><![CDATA[<hr><p>title:super-cow-powers<br>date:2019-09-04 20:25:55<br>tags:Funny</p><hr><h2 id="Powers"><a href="#Powers" class="headerlink" title="Powers"></a>Powers</h2><p>年轻人，渴望力量吗?</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="/images/super-cow-powers/super-cow-powers.png" alt title>                </div>                <div class="image-caption"></div>            </figure>]]></content>
     
     <summary type="html">
     
@@ -42,8 +42,8 @@
   
   <entry>
     <title>The Phonetic Alphabet</title>
-    <link href="http://sunyu.co/2017/08/07/the-phonetic-alphabet/"/>
-    <id>http://sunyu.co/2017/08/07/the-phonetic-alphabet/</id>
+    <link href="http://sunyu.ac.cn/2017/08/07/the-phonetic-alphabet/"/>
+    <id>http://sunyu.ac.cn/2017/08/07/the-phonetic-alphabet/</id>
     <published>2017-08-07T01:43:17.000Z</published>
     <updated>2019-09-04T11:33:05.840Z</updated>
     
@@ -59,14 +59,14 @@
     </summary>
     
     
-      <category term="English" scheme="http://sunyu.co/tags/English/"/>
+      <category term="English" scheme="http://sunyu.ac.cn/tags/English/"/>
     
   </entry>
   
   <entry>
     <title>Keep it</title>
-    <link href="http://sunyu.co/2017/07/21/keep-it/"/>
-    <id>http://sunyu.co/2017/07/21/keep-it/</id>
+    <link href="http://sunyu.ac.cn/2017/07/21/keep-it/"/>
+    <id>http://sunyu.ac.cn/2017/07/21/keep-it/</id>
     <published>2017-07-21T00:29:39.000Z</published>
     <updated>2019-09-04T11:33:05.840Z</updated>
     
@@ -82,14 +82,14 @@
     </summary>
     
     
-      <category term="English" scheme="http://sunyu.co/tags/English/"/>
+      <category term="English" scheme="http://sunyu.ac.cn/tags/English/"/>
     
   </entry>
   
   <entry>
     <title>Who Call Who</title>
-    <link href="http://sunyu.co/2017/07/19/who-call-who/"/>
-    <id>http://sunyu.co/2017/07/19/who-call-who/</id>
+    <link href="http://sunyu.ac.cn/2017/07/19/who-call-who/"/>
+    <id>http://sunyu.ac.cn/2017/07/19/who-call-who/</id>
     <published>2017-07-19T00:58:00.000Z</published>
     <updated>2019-09-04T11:33:05.840Z</updated>
     
@@ -105,14 +105,14 @@
     </summary>
     
     
-      <category term="English" scheme="http://sunyu.co/tags/English/"/>
+      <category term="English" scheme="http://sunyu.ac.cn/tags/English/"/>
     
   </entry>
   
   <entry>
     <title>Chinese programmer wrong pronunciation</title>
-    <link href="http://sunyu.co/2017/07/18/chinese-programmer-wrong-pronunciation/"/>
-    <id>http://sunyu.co/2017/07/18/chinese-programmer-wrong-pronunciation/</id>
+    <link href="http://sunyu.ac.cn/2017/07/18/chinese-programmer-wrong-pronunciation/"/>
+    <id>http://sunyu.ac.cn/2017/07/18/chinese-programmer-wrong-pronunciation/</id>
     <published>2017-07-18T08:49:32.000Z</published>
     <updated>2019-09-04T11:33:05.840Z</updated>
     
@@ -128,7 +128,7 @@
     </summary>
     
     
-      <category term="English" scheme="http://sunyu.co/tags/English/"/>
+      <category term="English" scheme="http://sunyu.ac.cn/tags/English/"/>
     
   </entry>
   
