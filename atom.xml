@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sunyu.ac.cn/"/>
-  <updated>2019-09-04T12:53:08.950Z</updated>
+  <updated>2019-09-04T13:46:41.710Z</updated>
   <id>http://sunyu.ac.cn/</id>
   
   <author>
@@ -17,26 +17,26 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>Powers</title>
     <link href="http://sunyu.ac.cn/2019/09/04/super-cow-powers/"/>
     <id>http://sunyu.ac.cn/2019/09/04/super-cow-powers/</id>
-    <published>2019-09-04T12:53:08.970Z</published>
-    <updated>2019-09-04T12:53:08.950Z</updated>
+    <published>2019-09-04T13:41:00.000Z</published>
+    <updated>2019-09-04T13:46:41.710Z</updated>
     
-    <content type="html"><![CDATA[<hr><p>title:super-cow-powers<br>date:2019-09-04 20:25:55<br>tags:Funny</p><hr><h2 id="Powers"><a href="#Powers" class="headerlink" title="Powers"></a>Powers</h2><p>年轻人，渴望力量吗?<br><img src="/images/super-cow-powers/super-cow-powers.png" alt></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Powers"><a href="#Powers" class="headerlink" title="Powers"></a>Powers</h2><p>&emsp;&emsp;年轻人，渴望力量吗?<br></p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="super-cow-powers.png" alt title>                </div>                <div class="image-caption"></div>            </figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;hr&gt;
-&lt;p&gt;title:super-cow-powers&lt;br&gt;date:2019-09-04 20:25:55&lt;br&gt;tags:Funny&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;Powers&quot;&gt;&lt;a href=&quot;#Powers&quot; class=&quot;headerlink&quot; title
+        &lt;h2 id=&quot;Powers&quot;&gt;&lt;a href=&quot;#Powers&quot; class=&quot;headerlink&quot; title=&quot;Powers&quot;&gt;&lt;/a&gt;Powers&lt;/h2&gt;&lt;p&gt;&amp;emsp;&amp;emsp;年轻人，渴望力量吗?&lt;br&gt;&lt;/p&gt;
+&lt;figure class=&quot;image-bu
       
     
     </summary>
     
+    
+      <category term="Funny" scheme="http://sunyu.ac.cn/tags/Funny/"/>
     
   </entry>
   
