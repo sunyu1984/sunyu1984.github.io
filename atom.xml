@@ -23,14 +23,13 @@
     <published>2019-09-04T13:41:00.000Z</published>
     <updated>2019-09-04T13:46:41.710Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Powers"><a href="#Powers" class="headerlink" title="Powers"></a>Powers</h2><p>&emsp;&emsp;年轻人，渴望力量吗?<br></p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="super-cow-powers.png" alt title>                </div>                <div class="image-caption"></div>            </figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="Powers"><a href="#Powers" class="headerlink" title="Powers"></a>Powers</h2><p>&emsp;&emsp;年轻人，渴望力量吗?<br><br><img src="super-cow-powers.png" alt></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;Powers&quot;&gt;&lt;a href=&quot;#Powers&quot; class=&quot;headerlink&quot; title=&quot;Powers&quot;&gt;&lt;/a&gt;Powers&lt;/h2&gt;&lt;p&gt;&amp;emsp;&amp;emsp;年轻人，渴望力量吗?&lt;br&gt;&lt;/p&gt;
-&lt;figure class=&quot;image-bu
+        &lt;h2 id=&quot;Powers&quot;&gt;&lt;a href=&quot;#Powers&quot; class=&quot;headerlink&quot; title=&quot;Powers&quot;&gt;&lt;/a&gt;Powers&lt;/h2&gt;&lt;p&gt;&amp;emsp;&amp;emsp;年轻人，渴望力量吗?&lt;br&gt;&lt;br&gt;&lt;img src=&quot;super-cow-powe
       
     
     </summary>
