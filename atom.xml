@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sunyu.ac.cn/"/>
-  <updated>2019-09-06T03:14:30.130Z</updated>
+  <updated>2019-09-05T04:55:42.519Z</updated>
   <id>http://sunyu.ac.cn/</id>
   
   <author>
@@ -15,29 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>engineering-parctices-in-chinaunicom</title>
-    <link href="http://sunyu.ac.cn/2019/09/06/engineering-parctices-in-chinaunicom/"/>
-    <id>http://sunyu.ac.cn/2019/09/06/engineering-parctices-in-chinaunicom/</id>
-    <published>2019-09-06T02:46:57.000Z</published>
-    <updated>2019-09-06T03:14:30.130Z</updated>
-    
-    <content type="html"><![CDATA[<p>Give a presentation at Heilongjiang University of Finance and Economic.<br>Slides:<a href="https://docs.google.com/presentation/d/1EM_3yQehiLFYIofsOR8l6i6smYj8b99yXeFvSSSUkxQ/edit?usp=sharing" target="_blank" rel="noopener">https://docs.google.com/presentation/d/1EM_3yQehiLFYIofsOR8l6i6smYj8b99yXeFvSSSUkxQ/edit?usp=sharing</a></p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="presentation1.jpg" alt title>                </div>                <div class="image-caption"></div>            </figure><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="presentation2.jpg" alt title>                </div>                <div class="image-caption"></div>            </figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Give a presentation at Heilongjiang University of Finance and Economic.&lt;br&gt;Slides:&lt;a href=&quot;https://docs.google.com/presentation/d/1EM_3yQ
-      
-    
-    </summary>
-    
-    
-      <category term="Presentation" scheme="http://sunyu.ac.cn/tags/Presentation/"/>
-    
-  </entry>
   
   <entry>
     <title>Powers</title>
@@ -62,6 +39,29 @@
     
     
       <category term="Funny" scheme="http://sunyu.ac.cn/tags/Funny/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Engineering Parctices In Chinaunicom</title>
+    <link href="http://sunyu.ac.cn/2019/07/06/engineering-parctices-in-chinaunicom/"/>
+    <id>http://sunyu.ac.cn/2019/07/06/engineering-parctices-in-chinaunicom/</id>
+    <published>2019-07-06T02:46:57.000Z</published>
+    <updated>2019-09-06T03:24:36.290Z</updated>
+    
+    <content type="html"><![CDATA[<p>Give a presentation at Heilongjiang University of Finance and Economic on July 5.<br><br><br>Slides:<a href="https://docs.google.com/presentation/d/1EM_3yQehiLFYIofsOR8l6i6smYj8b99yXeFvSSSUkxQ/edit?usp=sharing" target="_blank" rel="noopener">https://docs.google.com/presentation/d/1EM_3yQehiLFYIofsOR8l6i6smYj8b99yXeFvSSSUkxQ/edit?usp=sharing</a><br><br></p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="presentation1.jpg" alt title>                </div>                <div class="image-caption"></div>            </figure><br><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="presentation2.jpg" alt title>                </div>                <div class="image-caption"></div>            </figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Give a presentation at Heilongjiang University of Finance and Economic on July 5.&lt;br&gt;&lt;br&gt;&lt;br&gt;Slides:&lt;a href=&quot;https://docs.google.com/pres
+      
+    
+    </summary>
+    
+    
+      <category term="Presentation" scheme="http://sunyu.ac.cn/tags/Presentation/"/>
     
   </entry>
   
