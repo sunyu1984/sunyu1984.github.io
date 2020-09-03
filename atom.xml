@@ -5,9 +5,9 @@
   <subtitle>Exploring the unknown</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://sunyu.ac.cn/"/>
+  <link href="http://sunyu.host/"/>
   <updated>2019-09-05T04:55:42.519Z</updated>
-  <id>http://sunyu.ac.cn/</id>
+  <id>http://sunyu.host/</id>
   
   <author>
     <name>Sun Yu</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Powers</title>
-    <link href="http://sunyu.ac.cn/2019/09/04/super-cow-powers/"/>
-    <id>http://sunyu.ac.cn/2019/09/04/super-cow-powers/</id>
+    <link href="http://sunyu.host/2019/09/04/super-cow-powers/"/>
+    <id>http://sunyu.host/2019/09/04/super-cow-powers/</id>
     <published>2019-09-04T13:41:00.000Z</published>
     <updated>2019-09-05T04:55:42.519Z</updated>
     
@@ -38,14 +38,14 @@
     </summary>
     
     
-      <category term="Funny" scheme="http://sunyu.ac.cn/tags/Funny/"/>
+      <category term="Funny" scheme="http://sunyu.host/tags/Funny/"/>
     
   </entry>
   
   <entry>
     <title>Engineering Parctices In Chinaunicom</title>
-    <link href="http://sunyu.ac.cn/2019/07/06/engineering-parctices-in-chinaunicom/"/>
-    <id>http://sunyu.ac.cn/2019/07/06/engineering-parctices-in-chinaunicom/</id>
+    <link href="http://sunyu.host/2019/07/06/engineering-parctices-in-chinaunicom/"/>
+    <id>http://sunyu.host/2019/07/06/engineering-parctices-in-chinaunicom/</id>
     <published>2019-07-06T02:46:57.000Z</published>
     <updated>2019-09-06T03:24:36.290Z</updated>
     
@@ -61,14 +61,14 @@
     </summary>
     
     
-      <category term="Presentation" scheme="http://sunyu.ac.cn/tags/Presentation/"/>
+      <category term="Presentation" scheme="http://sunyu.host/tags/Presentation/"/>
     
   </entry>
   
   <entry>
     <title>The Phonetic Alphabet</title>
-    <link href="http://sunyu.ac.cn/2017/08/07/the-phonetic-alphabet/"/>
-    <id>http://sunyu.ac.cn/2017/08/07/the-phonetic-alphabet/</id>
+    <link href="http://sunyu.host/2017/08/07/the-phonetic-alphabet/"/>
+    <id>http://sunyu.host/2017/08/07/the-phonetic-alphabet/</id>
     <published>2017-08-07T01:43:17.000Z</published>
     <updated>2019-09-04T11:33:05.840Z</updated>
     
@@ -84,14 +84,14 @@
     </summary>
     
     
-      <category term="English" scheme="http://sunyu.ac.cn/tags/English/"/>
+      <category term="English" scheme="http://sunyu.host/tags/English/"/>
     
   </entry>
   
   <entry>
     <title>Keep it</title>
-    <link href="http://sunyu.ac.cn/2017/07/21/keep-it/"/>
-    <id>http://sunyu.ac.cn/2017/07/21/keep-it/</id>
+    <link href="http://sunyu.host/2017/07/21/keep-it/"/>
+    <id>http://sunyu.host/2017/07/21/keep-it/</id>
     <published>2017-07-21T00:29:39.000Z</published>
     <updated>2019-09-04T13:34:31.230Z</updated>
     
@@ -107,14 +107,14 @@
     </summary>
     
     
-      <category term="English" scheme="http://sunyu.ac.cn/tags/English/"/>
+      <category term="English" scheme="http://sunyu.host/tags/English/"/>
     
   </entry>
   
   <entry>
     <title>Who Call Who</title>
-    <link href="http://sunyu.ac.cn/2017/07/19/who-call-who/"/>
-    <id>http://sunyu.ac.cn/2017/07/19/who-call-who/</id>
+    <link href="http://sunyu.host/2017/07/19/who-call-who/"/>
+    <id>http://sunyu.host/2017/07/19/who-call-who/</id>
     <published>2017-07-19T00:58:00.000Z</published>
     <updated>2019-09-04T11:33:05.840Z</updated>
     
@@ -130,14 +130,14 @@
     </summary>
     
     
-      <category term="English" scheme="http://sunyu.ac.cn/tags/English/"/>
+      <category term="English" scheme="http://sunyu.host/tags/English/"/>
     
   </entry>
   
   <entry>
     <title>Chinese programmer wrong pronunciation</title>
-    <link href="http://sunyu.ac.cn/2017/07/18/chinese-programmer-wrong-pronunciation/"/>
-    <id>http://sunyu.ac.cn/2017/07/18/chinese-programmer-wrong-pronunciation/</id>
+    <link href="http://sunyu.host/2017/07/18/chinese-programmer-wrong-pronunciation/"/>
+    <id>http://sunyu.host/2017/07/18/chinese-programmer-wrong-pronunciation/</id>
     <published>2017-07-18T08:49:32.000Z</published>
     <updated>2019-09-04T11:33:05.840Z</updated>
     
@@ -153,7 +153,7 @@
     </summary>
     
     
-      <category term="English" scheme="http://sunyu.ac.cn/tags/English/"/>
+      <category term="English" scheme="http://sunyu.host/tags/English/"/>
     
   </entry>
   
