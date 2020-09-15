@@ -23,15 +23,13 @@
     <published>2019-09-04T13:41:00.000Z</published>
     <updated>2019-09-05T04:55:42.000Z</updated>
     
-    <content type="html"><![CDATA[<p>&emsp;&emsp;年轻人，渴望力量吗?</br></p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="super-cow-powers.png" alt="" title="">                </div>                <div class="image-caption"></div>            </figure>]]></content>
+    <content type="html"><![CDATA[<p>&emsp;&emsp;年轻人，渴望力量吗?</br><br><img src="super-cow-powers.png"></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;年轻人，渴望力量吗?&lt;/br&gt;&lt;/p&gt;
-&lt;figure class=&quot;image-bubble&quot;&gt;
-                &lt;div class=&quot;img-lightbox&quot;&gt;
-                    &lt;div class=&quot;</summary>
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;年轻人，渴望力量吗?&lt;/br&gt;&lt;br&gt;&lt;img src=&quot;super-cow-powers.png&quot;&gt;&lt;/p&gt;
+</summary>
       
     
     
@@ -48,7 +46,7 @@
     <published>2019-07-06T02:46:57.000Z</published>
     <updated>2019-09-06T03:24:36.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Give a presentation at Heilongjiang University of Finance and Economic on July 5.<br></br><br>Slides:<a href="https://docs.google.com/presentation/d/1EM_3yQehiLFYIofsOR8l6i6smYj8b99yXeFvSSSUkxQ/edit?usp=sharing">https://docs.google.com/presentation/d/1EM_3yQehiLFYIofsOR8l6i6smYj8b99yXeFvSSSUkxQ/edit?usp=sharing</a><br></br></p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="presentation1.jpg" alt="" title="">                </div>                <div class="image-caption"></div>            </figure></br><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="presentation2.jpg" alt="" title="">                </div>                <div class="image-caption"></div>            </figure>]]></content>
+    <content type="html"><![CDATA[<p>Give a presentation at Heilongjiang University of Finance and Economic on July 5.<br></br><br>Slides:<a href="https://docs.google.com/presentation/d/1EM_3yQehiLFYIofsOR8l6i6smYj8b99yXeFvSSSUkxQ/edit?usp=sharing">https://docs.google.com/presentation/d/1EM_3yQehiLFYIofsOR8l6i6smYj8b99yXeFvSSSUkxQ/edit?usp=sharing</a><br></br><br><img src="presentation1.jpg"><br></br><br><img src="presentation2.jpg"></p>]]></content>
     
     
       
