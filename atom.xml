@@ -6,7 +6,7 @@
   <link href="http://sunyu.host/atom.xml" rel="self"/>
   
   <link href="http://sunyu.host/"/>
-  <updated>2019-09-05T04:55:42.000Z</updated>
+  <updated>2020-09-15T09:05:08.270Z</updated>
   <id>http://sunyu.host/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="http://sunyu.host/2019/09/04/super-cow-powers/"/>
     <id>http://sunyu.host/2019/09/04/super-cow-powers/</id>
     <published>2019-09-04T13:41:00.000Z</published>
-    <updated>2019-09-05T04:55:42.000Z</updated>
+    <updated>2020-09-15T09:05:08.270Z</updated>
     
-    <content type="html"><![CDATA[<p>&emsp;&emsp;年轻人，渴望力量吗?</br><br><img src="super-cow-powers.png"></p>]]></content>
+    <content type="html"><![CDATA[<p>&emsp;&emsp;年轻人，渴望力量吗?<br><br><img src="/2019/09/04/super-cow-powers/super-cow-powers.png"></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;年轻人，渴望力量吗?&lt;/br&gt;&lt;br&gt;&lt;img src=&quot;super-cow-powers.png&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;年轻人，渴望力量吗?&lt;br&gt;&lt;br&gt;&lt;img src=&quot;/2019/09/04/super-cow-powers/super-cow-powers.png&quot;&gt;&lt;/p&gt;
 </summary>
       
     
@@ -44,7 +44,7 @@
     <link href="http://sunyu.host/2019/07/06/engineering-parctices-in-chinaunicom/"/>
     <id>http://sunyu.host/2019/07/06/engineering-parctices-in-chinaunicom/</id>
     <published>2019-07-06T02:46:57.000Z</published>
-    <updated>2020-09-15T09:03:02.320Z</updated>
+    <updated>2020-09-15T09:04:51.540Z</updated>
     
     <content type="html"><![CDATA[<p>Give a presentation at Heilongjiang University of Finance and Economic on July 5.<br><br><br>Slides:<a href="https://docs.google.com/presentation/d/1EM_3yQehiLFYIofsOR8l6i6smYj8b99yXeFvSSSUkxQ/edit?usp=sharing">https://docs.google.com/presentation/d/1EM_3yQehiLFYIofsOR8l6i6smYj8b99yXeFvSSSUkxQ/edit?usp=sharing</a><br><br><br><img src="/2019/07/06/engineering-parctices-in-chinaunicom/presentation1.jpg"><br><br><br><img src="/2019/07/06/engineering-parctices-in-chinaunicom/presentation2.jpg"></p>]]></content>
     
