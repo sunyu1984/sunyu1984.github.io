@@ -1,23 +1,1055 @@
-{% extends '_layout.swig' %}
-{% import '_macro/post.swig' as post_template %}
-{% import '_macro/sidebar.swig' as sidebar_template %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.1.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-{% block title %}{{ config.title }}{% if theme.index_with_subtitle and config.subtitle %} - {{config.subtitle }}{% endif %}{% endblock %}
+<link rel="stylesheet" href="/css/main.css">
 
-{% block page_class %}
-  {% if is_home() %}page-home{% endif -%}
-{% endblock %}
 
-{% block content %}
-  <section id="posts" class="posts-expand">
-    {% for post in page.posts %}
-      {{ post_template.render(post, true) }}
-    {% endfor %}
-  </section>
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
-  {% include '_partials/pagination.swig' %}
-{% endblock %}
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"sunyu.host","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
 
-{% block sidebar %}
-  {{ sidebar_template.render(false) }}
-{% endblock %}
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hello World">
+<meta property="og:url" content="http://sunyu.host/index.html">
+<meta property="og:site_name" content="Hello World">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Sun Yu">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://sunyu.host/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>Hello World</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="Hello World" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Hello World</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Exploring the unknown</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content index posts-expand">
+            
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://sunyu.host/2019/09/04/super-cow-powers/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Sun Yu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hello World">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/09/04/super-cow-powers/" class="post-title-link" itemprop="url">Powers</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-09-04 21:41:00" itemprop="dateCreated datePublished" datetime="2019-09-04T21:41:00+08:00">2019-09-04</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-09-05 12:55:42" itemprop="dateModified" datetime="2019-09-05T12:55:42+08:00">2019-09-05</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>&emsp;&emsp;年轻人，渴望力量吗?</br><br><img src="super-cow-powers.png"></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://sunyu.host/2019/07/06/engineering-parctices-in-chinaunicom/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Sun Yu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hello World">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/07/06/engineering-parctices-in-chinaunicom/" class="post-title-link" itemprop="url">Engineering Parctices In Chinaunicom</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-07-06 10:46:57" itemprop="dateCreated datePublished" datetime="2019-07-06T10:46:57+08:00">2019-07-06</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-09-06 11:24:36" itemprop="dateModified" datetime="2019-09-06T11:24:36+08:00">2019-09-06</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>Give a presentation at Heilongjiang University of Finance and Economic on July 5.<br></br><br>Slides:<a target="_blank" rel="noopener" href="https://docs.google.com/presentation/d/1EM_3yQehiLFYIofsOR8l6i6smYj8b99yXeFvSSSUkxQ/edit?usp=sharing">https://docs.google.com/presentation/d/1EM_3yQehiLFYIofsOR8l6i6smYj8b99yXeFvSSSUkxQ/edit?usp=sharing</a><br></br><br><img src="presentation1.jpg"><br></br><br><img src="presentation2.jpg"></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://sunyu.host/2017/08/07/the-phonetic-alphabet/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Sun Yu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hello World">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2017/08/07/the-phonetic-alphabet/" class="post-title-link" itemprop="url">The Phonetic Alphabet</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2017-08-07 09:43:17" itemprop="dateCreated datePublished" datetime="2017-08-07T09:43:17+08:00">2017-08-07</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-09-04 19:33:05" itemprop="dateModified" datetime="2019-09-04T19:33:05+08:00">2019-09-04</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>A    Alfa (or Alpha)<br>B    Bravo<br>C    Charlie<br>D    Delta<br>E    Echo<br>F    Foxtrot<br>G    Golf<br>H    Hotel<br>I    India<br>J    Juliett<br>K    Kilo<br>L    Lima<br>M    Mike<br>N    November<br>O    Oscar<br>P    Papa<br>Q    Quebec<br>R    Romeo<br>S    Sierra<br>T    Tango<br>U    Uniform<br>V    Victor<br>W    Whiskey<br>X    X-ray<br>Y    Yankee<br>Z    Zulu</p>
+<p><a target="_blank" rel="noopener" href="https://www.thebalance.com/military-phonetic-alphabet-3356942">https://www.thebalance.com/military-phonetic-alphabet-3356942</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://sunyu.host/2017/07/21/keep-it/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Sun Yu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hello World">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2017/07/21/keep-it/" class="post-title-link" itemprop="url">Keep it</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2017-07-21 08:29:39" itemprop="dateCreated datePublished" datetime="2017-07-21T08:29:39+08:00">2017-07-21</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-09-04 21:34:31" itemprop="dateModified" datetime="2019-09-04T21:34:31+08:00">2019-09-04</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="Keep-it"><a href="#Keep-it" class="headerlink" title="Keep it"></a>Keep it</h2><p>&emsp;&emsp;在餐馆吃饭，几个同事讨论bill out时怎么说“不用找了”，刚好说到“Keep the change”，Fred讲了一个关于Keep的糗事～</br><br>&emsp;&emsp;一天，Fred正在做饭，保姆在收拾卫生。Fred接到了办公室电话要去处理，想让保姆把做到一半的菜放到那里不用收拾，于是对保姆说：”Keep it“。后来，Fred回来之后，发现保姆把做到一半的菜，没做的食材全都自己拿回家了～”Keep it“了～</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://sunyu.host/2017/07/19/who-call-who/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Sun Yu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hello World">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2017/07/19/who-call-who/" class="post-title-link" itemprop="url">Who Call Who</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2017-07-19 08:58:00" itemprop="dateCreated datePublished" datetime="2017-07-19T08:58:00+08:00">2017-07-19</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-09-04 19:33:05" itemprop="dateModified" datetime="2019-09-04T19:33:05+08:00">2019-09-04</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="Who-call-Who-English"><a href="#Who-call-Who-English" class="headerlink" title="Who call Who English"></a>Who call Who English</h2><p>&emsp;&emsp;来到菲律宾工作有二十多天了，用我的磕磕巴巴的东北英语艰难地工作生活。突然想起高中时英语老师讲的一个东北人说英语的笑话。</br><br>&emsp;&emsp;话说两个东北大哥出差，研究第二天要早起。</br><br>&emsp;&emsp;If I get up early I’ll call you.</br><br>&emsp;&emsp;If you get up early then you call me.</br><br>&emsp;&emsp;If we both get up late,那糊烤户(who call who)呢~</br><br>&emsp;&emsp;当时老师特意用大碴子口音模仿了我们东北人说英语的特色，博得满堂大笑。没想到十几年后，我就像笑话里的Who Call Who一样，大碴子口音，单词堆积，没有语法，勉强过活……</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://sunyu.host/2017/07/18/chinese-programmer-wrong-pronunciation/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Sun Yu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hello World">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2017/07/18/chinese-programmer-wrong-pronunciation/" class="post-title-link" itemprop="url">Chinese programmer wrong pronunciation</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2017-07-18 16:49:32" itemprop="dateCreated datePublished" datetime="2017-07-18T16:49:32+08:00">2017-07-18</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-09-04 19:33:05" itemprop="dateModified" datetime="2019-09-04T19:33:05+08:00">2019-09-04</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="chinese-programmer-wrong-pronunciation"><a href="#chinese-programmer-wrong-pronunciation" class="headerlink" title="chinese-programmer-wrong-pronunciation"></a>chinese-programmer-wrong-pronunciation</h1><p>中国程序员容易发音错误的单词(点击喇叭可收听正确读音)</p>
+<table>
+<thead>
+<tr>
+<th>单词</th>
+<th>正确发音</th>
+<th>错误发音</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>access <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=access&type=1">🔊</a></td>
+<td>✅ [‘ækses]</td>
+<td>❌ [ək’ses]</td>
+</tr>
+<tr>
+<td>agile <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=agile&type=1">🔊</a></td>
+<td>✅ [‘ædʒaɪl]</td>
+<td>❌ [ə’dʒaɪl]</td>
+</tr>
+<tr>
+<td>amazon <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=amazon&type=1">🔊</a></td>
+<td>✅ [‘æməzən]</td>
+<td>❌ [‘əmeizən]</td>
+</tr>
+<tr>
+<td>analogy <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=analogy&type=1">🔊</a></td>
+<td>✅ [əˈnælədʒi]</td>
+<td>❌ [ænə’lɒdʒi]</td>
+</tr>
+<tr>
+<td>Angular <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=Angular&type=1">🔊</a></td>
+<td>✅ [‘æŋgjʊlə]</td>
+<td>❌ [‘æŋɡələ; ‘æŋdʒʌlə]</td>
+</tr>
+<tr>
+<td>AJAX <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=AJAX&type=1">🔊</a></td>
+<td>✅ [‘eidʒæks]</td>
+<td>❌ [ə’dʒʌks]</td>
+</tr>
+<tr>
+<td>alias <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=alias&type=2">🔊</a></td>
+<td>✅ [ˈeɪliəs]</td>
+<td>❌ [ə’lais]</td>
+</tr>
+<tr>
+<td>Apache <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=Apache&type=1">🔊</a></td>
+<td>✅ [ə’pætʃɪ]</td>
+<td>❌ [ʌpʌtʃ]</td>
+</tr>
+<tr>
+<td>app <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=app&type=1">🔊</a></td>
+<td>✅ [æp]</td>
+<td>❌ [eipi’pi]</td>
+</tr>
+<tr>
+<td>archive <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=archive&type=1">🔊</a></td>
+<td>✅ [‘ɑːkaɪv]</td>
+<td>❌ [‘ətʃɪv]</td>
+</tr>
+<tr>
+<td>array <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=array&type=1">🔊</a></td>
+<td>✅ [ə’rei]</td>
+<td>❌ [æ’rei]</td>
+</tr>
+<tr>
+<td>aspect <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=aspect&type=1">🔊</a></td>
+<td>✅ [‘æspekt]</td>
+<td>❌ [ə’spekt]</td>
+</tr>
+<tr>
+<td>avatar <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=avatar&type=1">🔊</a></td>
+<td>✅ [‘ævətɑː]</td>
+<td>❌ [ə’vʌtɑ]</td>
+</tr>
+<tr>
+<td>Azure <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=azure&type=1">🔊</a></td>
+<td>✅ [‘æʒə]</td>
+<td>❌ [ˈæzʊʒə]</td>
+</tr>
+<tr>
+<td>bind <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=bind&type=1">🔊</a></td>
+<td>✅ [baɪnd]</td>
+<td>❌ [bɪnd]</td>
+</tr>
+<tr>
+<td>cache <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=cache&type=1">🔊</a></td>
+<td>✅ [kæʃ]</td>
+<td>❌ [kætʃ]</td>
+</tr>
+<tr>
+<td>Daemon <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=Daemon&type=1">🔊</a></td>
+<td>✅ [‘diːmən]</td>
+<td>❌ [[dæmən]]</td>
+</tr>
+<tr>
+<td>deque <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=deque&type=1">🔊</a></td>
+<td>✅ [‘dek]</td>
+<td>❌ [di’kju]</td>
+</tr>
+<tr>
+<td>digest <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=digest&type=1">🔊</a></td>
+<td>✅ [‘dɑɪdʒɛst]</td>
+<td>❌ [‘dɪgɛst]</td>
+</tr>
+<tr>
+<td>Django <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=Django&type=1">🔊</a></td>
+<td>✅ [ˈdʒæŋɡoʊ]</td>
+<td>❌ [diˈdʒæŋɡoʊ]</td>
+</tr>
+<tr>
+<td>doc <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=doc&type=1">🔊</a></td>
+<td>✅ [dɒk]</td>
+<td>❌ [daʊk]</td>
+</tr>
+<tr>
+<td>facade <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=facade&type=1">🔊</a></td>
+<td>✅ [fə’sɑːd]]</td>
+<td>❌ [‘feikeid]</td>
+</tr>
+<tr>
+<td>fedora <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=fedora&type=1">🔊</a></td>
+<td>✅ [fɪ’dɔːrə]</td>
+<td>❌ [‘fedərə]</td>
+</tr>
+<tr>
+<td>Git <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=git&type=1">🔊</a></td>
+<td>✅ [ɡɪt]</td>
+<td>❌ [dʒɪt; jɪt]</td>
+</tr>
+<tr>
+<td>GNU <a target="_blank" rel="noopener" href="https://upload.wikimedia.org/wikipedia/commons/2/24/En-gnu.ogg">🔊</a></td>
+<td>✅ [gnu:]</td>
+<td></td>
+</tr>
+<tr>
+<td>GUI <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=GUI&type=1">🔊</a></td>
+<td>✅ [ˈɡui]</td>
+<td></td>
+</tr>
+<tr>
+<td>Haskell <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=haskell&type=1">🔊</a></td>
+<td>✅ [ˈhæskəl]</td>
+<td>❌ [hæˈskəl]</td>
+</tr>
+<tr>
+<td>height <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=height&type=1">🔊</a></td>
+<td>✅ [haɪt]</td>
+<td>❌ [heɪt]</td>
+</tr>
+<tr>
+<td>hidden <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=hidden&type=1">🔊</a></td>
+<td>✅ [‘hɪdn]</td>
+<td>❌ [‘haɪdn]</td>
+</tr>
+<tr>
+<td>image <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=image&type=1">🔊</a></td>
+<td>✅ [‘ɪmɪdʒ]</td>
+<td>❌ [ɪ’meɪdʒ]</td>
+</tr>
+<tr>
+<td>integer <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=integer&type=1">🔊</a></td>
+<td>✅ [‘ɪntɪdʒə]</td>
+<td>❌ [ˈɪntaɪgə]</td>
+</tr>
+<tr>
+<td>issue <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=issue&type=1">🔊</a></td>
+<td>✅ [‘ɪʃuː]</td>
+<td>❌ [ˈaɪʃuː]</td>
+</tr>
+<tr>
+<td>Java <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=java&type=1">🔊</a></td>
+<td>✅ [‘dʒɑːvə]</td>
+<td>❌ [‘dʒɑːvɑː]</td>
+</tr>
+<tr>
+<td>jpg(jpeg) <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=JPEG&type=1">🔊</a></td>
+<td>✅ [‘dʒeɪpeɡ]</td>
+<td>❌ [ˈdʒeɪˈpi:ˈdʒiː]</td>
+</tr>
+<tr>
+<td>lambda <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=lambda&type=1">🔊</a></td>
+<td>✅ [ˈlæmdə]</td>
+<td>❌ [ˈlɒŋmdɑ]</td>
+</tr>
+<tr>
+<td>linear <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=linear&type=1">🔊</a></td>
+<td>✅ [‘lɪnɪə]</td>
+<td>❌ [‘laɪə]</td>
+</tr>
+<tr>
+<td>Linux <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=linux&type=2">🔊</a></td>
+<td>✅ [‘lɪnəks]</td>
+<td>❌ [ˈlɪnʌks; ˈlɪnjuːks]</td>
+</tr>
+<tr>
+<td>main <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=main&type=1">🔊</a></td>
+<td>✅ [meɪn]</td>
+<td>❌ [mɪn]</td>
+</tr>
+<tr>
+<td>margin <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=margin&type=1">🔊</a></td>
+<td>✅ [‘mɑːdʒɪn]</td>
+<td>❌ [‘mʌgɪn]</td>
+</tr>
+<tr>
+<td>matrix <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=matrix&type=1">🔊</a></td>
+<td>✅ [ˈmeɪtrɪks]</td>
+<td>❌ [ˈmɑ:trɪks]</td>
+</tr>
+<tr>
+<td>maven <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=maven&type=1">🔊</a></td>
+<td>✅ [‘meɪvn]</td>
+<td>❌ [‘maːvn]</td>
+</tr>
+<tr>
+<td>Microsoft <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=Microsoft&type=1">🔊</a></td>
+<td>✅ [‘maikrəusɔft]</td>
+<td>❌ [‘mikrəusɔft]</td>
+</tr>
+<tr>
+<td>module <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=module&type=1">🔊</a></td>
+<td>✅ [‘mɒdjuːl]</td>
+<td>❌ [‘məʊdl]</td>
+</tr>
+<tr>
+<td>nginx</td>
+<td>✅ Engine X</td>
+<td></td>
+</tr>
+<tr>
+<td>null <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=null&type=1">🔊</a></td>
+<td>✅ [nʌl]</td>
+<td>❌ [naʊ]</td>
+</tr>
+<tr>
+<td>OS X</td>
+<td>✅ OS ten</td>
+<td></td>
+</tr>
+<tr>
+<td>phantom <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=phantom&type=2">🔊</a></td>
+<td>✅ [‘fæntəm]</td>
+<td>❌ [‘pæntəm]</td>
+</tr>
+<tr>
+<td>parameter <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=parameter&type=1">🔊</a></td>
+<td>✅ [pə’ræmɪtə]</td>
+<td>❌ [‘pærəmɪtə]</td>
+</tr>
+<tr>
+<td>putty <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=putty&type=1">🔊</a></td>
+<td>✅ [ˈpʌti]</td>
+<td>❌ [ˈpuːti]</td>
+</tr>
+<tr>
+<td>query <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=query&type=1">🔊</a></td>
+<td>✅ [‘kwɪəri]</td>
+<td>❌ [‘kwaɪri]</td>
+</tr>
+<tr>
+<td>Qt <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=cute&type=1">🔊</a></td>
+<td>✅ [kjuːt]</td>
+<td></td>
+</tr>
+<tr>
+<td>Realm <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=realm&type=1">🔊</a></td>
+<td>✅ [relm]</td>
+<td>❌ [riəlm]</td>
+</tr>
+<tr>
+<td>resolved <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=resolved&type=1">🔊</a></td>
+<td>✅ [rɪ’zɒlvd]</td>
+<td>❌ [rɪ’səʊvd]</td>
+</tr>
+<tr>
+<td>resort <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=resort&type=1">🔊</a></td>
+<td>✅ [rɪˈzɔ:t]</td>
+<td>❌ [rɪˈsɔ:t]</td>
+</tr>
+<tr>
+<td>retina <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=retina&type=1">🔊</a></td>
+<td>✅ [‘retɪnə]</td>
+<td>❌ [ri’tina]</td>
+</tr>
+<tr>
+<td>san jose <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=san%20jose&type=1">🔊</a></td>
+<td>✅ [sænhəu’zei]</td>
+<td>❌ [sæn’ju:s]</td>
+</tr>
+<tr>
+<td>safari <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=safari&type=1">🔊</a></td>
+<td>✅ [sə’fɑːrɪ]</td>
+<td>❌ [sæfərɪ]</td>
+</tr>
+<tr>
+<td>scheme <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=scheme&type=1">🔊</a></td>
+<td>✅ [skiːm]</td>
+<td>❌ [s’kæmə]</td>
+</tr>
+<tr>
+<td>SQL</td>
+<td>✅ [ˈsiːkwəl]</td>
+<td></td>
+</tr>
+<tr>
+<td>sudo</td>
+<td>✅ [‘suːduː]</td>
+<td></td>
+</tr>
+<tr>
+<td>suite <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=suite&type=1">🔊</a></td>
+<td>✅ [swiːt]</td>
+<td>❌ [sjuːt]</td>
+</tr>
+<tr>
+<td>typical <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=typical&type=1">🔊</a></td>
+<td>✅ [‘tɪpɪkl]</td>
+<td>❌ [‘taɪpɪkəl]</td>
+</tr>
+<tr>
+<td>Ubuntu <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=ubuntu&type=1">🔊</a></td>
+<td>✅ [ʊ’bʊntʊ]</td>
+<td>❌ [juː’bʊntʊ]</td>
+</tr>
+<tr>
+<td>variable <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=variable&type=1">🔊</a></td>
+<td>✅ [‘veəriəbl]</td>
+<td>❌ [və’raiəbl]</td>
+</tr>
+<tr>
+<td>vue <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=vue&type=1">🔊</a></td>
+<td>✅ [v’ju:]</td>
+<td>❌ [v’ju:i]</td>
+</tr>
+<tr>
+<td>width <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=width&type=1">🔊</a></td>
+<td>✅ [wɪdθ]</td>
+<td>❌ [waɪdθ]</td>
+</tr>
+<tr>
+<td>YouTube <a target="_blank" rel="noopener" href="http://dict.youdao.com/dictvoice?audio=youtube&type=1">🔊</a></td>
+<td>✅ [‘juː’tjuːb]</td>
+<td>❌ [‘juː’tʊbɪ]</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>本着简单的原则, 又为了避免程序猿们出现选择困难症, ‘正确音标’采用了最接近有道词典音频的英式 DJ 音标, 不代表其唯一性.<br>专业在线英语词典请参考<a target="_blank" rel="noopener" href="https://www.zhihu.com/question/19707759">知乎链接:在线英语词典哪个比较好?</a></p>
+</blockquote>
+<blockquote>
+<p>参考资料</p>
+<ol>
+<li><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/19739907">https://www.zhihu.com/question/19739907</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.v2ex.com/t/131094">https://www.v2ex.com/t/131094</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.v2ex.com/t/309350">https://www.v2ex.com/t/309350</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.v2ex.com/t/63781">https://www.v2ex.com/t/63781</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.v2ex.com/t/246033">https://www.v2ex.com/t/246033</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.v2ex.com/t/342087">https://www.v2ex.com/t/342087</a></li>
+</ol>
+</blockquote>
+<p>转自：<a target="_blank" rel="noopener" href="https://github.com/shimohq/chinese-programmer-wrong-pronunciation">https://github.com/shimohq/chinese-programmer-wrong-pronunciation</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Sun Yu</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Sun Yu</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
